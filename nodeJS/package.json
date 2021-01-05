@@ -11,15 +11,17 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "node": "^15.4.0"
+  },
   "devDependencies": {
     "chai": "^3.4.1",
     "istanbul": "^0.4.1",
     "karma": "^0.13.19",
     "karma-phantomjs-launcher": "^0.2.3",
-    "mocha": "^2.3.4",
-    "phantomjs": "^1.9.19",
-    "mochawrapper": ""
+    "mocha": "^2.5.3",
+    "mochawrapper": "",
+    "phantomjs": "^1.9.19"
   },
   "keywords": [
     "kata",
