@@ -4,24 +4,17 @@
   "description": "basic nodejs setup for unit testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --ui exports --reporter spec",
-    "coverage": "mochacoverage",
-    "monitor": "mocha --reporter min --watch",
-    "debugtest": "mocha --debug-brk --ui exports --reporter spec"
+    "test": "mocha --reporter spec",
+    "coverage": "nyc --reporter=text --reporter=html mocha --recursive 'test/**/*.spec.js'",
+    "watch": "mocha --reporter min --watch"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node": "^15.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "chai": "^3.4.1",
-    "istanbul": "^0.4.1",
-    "karma": "^0.13.19",
-    "karma-phantomjs-launcher": "^0.2.3",
-    "mocha": "^2.5.3",
-    "mochawrapper": "",
-    "phantomjs": "^1.9.19"
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
   },
   "keywords": [
     "kata",

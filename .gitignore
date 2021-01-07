@@ -7,4 +7,7 @@ java/.project
 java/.settings/
 .DS_Store
 swift4.2/kata/kata.xcodeproj/
+nodeJS/.nyc_output/75c74082-1c31-497c-9691-0e1d4d4a384b.json
+nodeJS/.nyc_output/processinfo/75c74082-1c31-497c-9691-0e1d4d4a384b.json
+nodeJS/.nyc_output/processinfo/index.json
 nodeJS/package-lock.json
